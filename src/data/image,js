@@ -1,0 +1,25 @@
+// src/data/images.js
+const images = [
+  { id: "1005", link: "https://picsum.photos/id/1005/800/1200" },
+  { id: "1011", link: "https://picsum.photos/id/1011/800/1200" },
+  { id: "1015", link: "https://picsum.photos/id/1015/800/1200" },
+  { id: "1016", link: "https://picsum.photos/id/1016/800/1200" },
+  { id: "1021", link: "https://picsum.photos/id/1021/800/1200" },
+  { id: "1027", link: "https://picsum.photos/id/1027/800/1200" },
+  { id: "1035", link: "https://picsum.photos/id/1035/800/1200" },
+  { id: "1037", link: "https://picsum.photos/id/1037/800/1200" },
+  { id: "1045", link: "https://picsum.photos/id/1045/800/1200" },
+  { id: "1050", link: "https://picsum.photos/id/1050/800/1200" },
+  { id: "1052", link: "https://picsum.photos/id/1052/800/1200" },
+  { id: "1062", link: "https://picsum.photos/id/1062/800/1200" },
+  { id: "1069", link: "https://picsum.photos/id/1069/800/1200" },
+  { id: "1074", link: "https://picsum.photos/id/1074/800/1200" },
+  { id: "1084", link: "https://picsum.photos/id/1084/800/1200" },
+  { id: "1089", link: "https://picsum.photos/id/1089/800/1200" },
+  { id: "1096", link: "https://picsum.photos/id/1096/800/1200" },
+  { id: "1104", link: "https://picsum.photos/id/1104/800/1200" },
+  { id: "111", link: "https://picsum.photos/id/111/800/1200" },
+  { id: "112", link: "https://picsum.photos/id/112/800/1200" },
+];
+
+export default images;
