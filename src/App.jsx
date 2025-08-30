@@ -27,7 +27,7 @@ const [qrValue, setQrValue] = useState(() => {
     // let codeOnly = value.replace(prefix, ""); 
     let codeOnly = value.trim().replace(prefix, "");
     // const linkText = "./images/" + codeOnly + ".jpg";
-    const linkText = "../qrimage/images/" + codeOnly + ".jpg";
+    const linkText = "../qrimage/images/" + codeOnly + ".webp";
     console.log(codeOnly)
     const id = Math.random();
     setQrValue((prev) => [{ id: id, link: linkText, comment:"", itemCode: codeOnly}, ...prev]);
@@ -36,7 +36,6 @@ const [qrValue, setQrValue] = useState(() => {
   if (qrValue == "") {
     return (
       <div className="w-full h-dvh flex justify-center items-end bg-black">
-        E
   <button
           className="text-white text-2xl h-14 w-3/4 md:w-1/2 bg-green-500 rounded-full m-16"
           onClick={() => setScannerOpen(true)}
