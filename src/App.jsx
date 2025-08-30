@@ -26,7 +26,8 @@ const [qrValue, setQrValue] = useState(() => {
   const handleQrDetected = (value) => {
     // let codeOnly = value.replace(prefix, ""); 
     let codeOnly = value.trim().replace(prefix, "");
-    const linkText = "./images/" + codeOnly + ".jpg";
+    // const linkText = "./images/" + codeOnly + ".jpg";
+    const linkText = "../qrimage/images/" + codeOnly + ".jpg";
     console.log(codeOnly)
     const id = Math.random();
     setQrValue((prev) => [{ id: id, link: linkText, comment:"", itemCode: codeOnly}, ...prev]);
